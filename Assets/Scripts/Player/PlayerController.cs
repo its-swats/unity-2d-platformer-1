@@ -14,8 +14,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Transform groundCheck;
     [SerializeField] Transform groundCheck2;
     [SerializeField] LayerMask groundLayer;
-    [SerializeField] Transform firingPoint;
+    [SerializeField] Transform firingPointIdle;
+    [SerializeField] Transform firingPointJump;
+    [SerializeField] Transform firingPointDuck;
     [SerializeField] GameObject bulletRef;
+    [SerializeField] BoxCollider2D standingCollider;
+    [SerializeField] BoxCollider2D duckingCollider;
+    [SerializeField] BoxCollider2D jumpingCollider;
 
     private Animator animator;
     private Rigidbody2D rb2d;
@@ -30,7 +35,7 @@ public class PlayerController : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         ducking = Input.GetAxisRaw("Vertical") == -1;
         if(Input.GetButtonDown("Fire1")){
-            Instantiate(bulletRef, firingPoint.position, transform.rotation);
+            Fire();
         }
     }
 
@@ -41,29 +46,39 @@ public class PlayerController : MonoBehaviour
 
         isGrounded = CheckGround();
 
-        if(Input.GetAxisRaw("Jump") == 1 && isGrounded){
-            animator.Play("Jump");
+        if(Input.GetAxisRaw("Jump") == 1 && isGrounded && !ducking){
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
         }
 
-        if(horizontal != 0){
+        if(horizontal != 0 && (!ducking || !isGrounded)){
             rb2d.velocity = new Vector2(horizontal * playerSpeed, rb2d.velocity.y);
-            if(isGrounded) { animator.Play("Run"); }
         } else if(ducking && isGrounded){
             rb2d.velocity = new Vector2(0, rb2d.velocity.y);
-            animator.Play("Duck");
         } else {
             rb2d.velocity = new Vector2(0, rb2d.velocity.y);
-            if(isGrounded) { animator.Play("Idle"); }
         }
+
+        UpdateAnimations();
+        UpdateHitboxes();
     }
 
     private void Flip(){
-
         facingRight = !facingRight;
         transform.Rotate(new Vector2(0, 180));
+    }
 
-        // transform.Rotate(0f, 180f, 0f);
+    private void Fire(){
+        Instantiate(bulletRef, CurrentFiringPoint().position, transform.rotation);
+    }
+
+    private Transform CurrentFiringPoint(){
+        if(!isGrounded){
+            return firingPointJump;
+        } else if(isGrounded && ducking){
+            return firingPointDuck;
+        } else {
+            return firingPointIdle;
+        }
     }
 
     private bool FacingWrongDirection(){
@@ -80,4 +95,26 @@ public class PlayerController : MonoBehaviour
         return false;
     }
 
-}
+    private void UpdateAnimations(){
+        animator.SetBool("IsGrounded", isGrounded);
+        animator.SetBool("IsDucking", ducking);
+        animator.SetBool("IsRunning", Mathf.Abs(horizontal) == 1);
+    }
+
+    private void UpdateHitboxes(){
+        if(animator.GetCurrentAnimatorStateInfo(0).IsName("Duck")){
+            duckingCollider.enabled = true;
+            jumpingCollider.enabled = false;
+            standingCollider.enabled = false;
+        } else if(animator.GetCurrentAnimatorStateInfo(0).IsName("Jump")){
+            duckingCollider.enabled = false;
+            jumpingCollider.enabled = true;
+            standingCollider.enabled = false;
+        } else {
+            duckingCollider.enabled = false;
+            jumpingCollider.enabled = false;
+            standingCollider.enabled = true;
+        }
+    }
+
+} 
