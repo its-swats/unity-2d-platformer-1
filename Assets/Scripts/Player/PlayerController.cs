@@ -10,13 +10,16 @@ public class PlayerController : MonoBehaviour
 
     private bool facingRight = true;
     private bool ducking = false;
+    private bool aimUp = false;
     [SerializeField] private bool isGrounded = true;
+
     [SerializeField] Transform groundCheck;
     [SerializeField] Transform groundCheck2;
     [SerializeField] LayerMask groundLayer;
     [SerializeField] Transform firingPointIdle;
     [SerializeField] Transform firingPointJump;
     [SerializeField] Transform firingPointDuck;
+    [SerializeField] Transform firingPointUp;
     [SerializeField] GameObject bulletRef;
     [SerializeField] BoxCollider2D standingCollider;
     [SerializeField] BoxCollider2D duckingCollider;
@@ -33,33 +36,32 @@ public class PlayerController : MonoBehaviour
 
     private void Update(){
         horizontal = Input.GetAxisRaw("Horizontal");
+        aimUp = Input.GetAxisRaw("Vertical") == 1 && rb2d.velocity.magnitude == 0;
         ducking = Input.GetAxisRaw("Vertical") == -1;
         if(Input.GetButtonDown("Fire1")){
             Fire();
         }
-    }
-
-    private void FixedUpdate(){
         if(FacingWrongDirection()){
             Flip();    
         }
+        // if(aimUp)
 
+        UpdateHitboxes();
+        UpdateAnimations();
+    }
+
+    private void FixedUpdate(){
         isGrounded = CheckGround();
 
         if(Input.GetAxisRaw("Jump") == 1 && isGrounded && !ducking){
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
         }
 
-        if(horizontal != 0 && (!ducking || !isGrounded)){
+        if(horizontal != 0 && ((!ducking || !isGrounded) && !aimUp)){
             rb2d.velocity = new Vector2(horizontal * playerSpeed, rb2d.velocity.y);
-        // } else if(ducking && isGrounded){
-        //     rb2d.velocity = new Vector2(0, rb2d.velocity.y);
         } else {
             rb2d.velocity = new Vector2(0, rb2d.velocity.y);
         }
-
-        UpdateAnimations();
-        UpdateHitboxes();
     }
 
     private void Flip(){
@@ -68,7 +70,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Fire(){
-        Instantiate(bulletRef, CurrentFiringPoint().position, transform.rotation);
+        Instantiate(bulletRef, CurrentFiringPoint().position, CurrentFiringPoint().rotation);
     }
 
     private Transform CurrentFiringPoint(){
@@ -76,6 +78,8 @@ public class PlayerController : MonoBehaviour
             return firingPointJump;
         } else if(isGrounded && ducking){
             return firingPointDuck;
+        } else if(aimUp){
+            return firingPointUp;
         } else {
             return firingPointIdle;
         }
@@ -98,18 +102,23 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsGrounded", isGrounded);
         animator.SetBool("IsDucking", ducking);
         animator.SetBool("IsRunning", Mathf.Abs(horizontal) == 1);
+        animator.SetBool("IsAimingUp", aimUp);
     }
 
     private void UpdateHitboxes(){
-        if(animator.GetCurrentAnimatorStateInfo(0).IsName("Duck") && !duckingCollider.enabled ){
-            duckingCollider.enabled = true;
-            jumpingCollider.enabled = false;
-            standingCollider.enabled = false;
-        } else if(animator.GetCurrentAnimatorStateInfo(0).IsName("Jump") && !jumpingCollider.enabled){
-            duckingCollider.enabled = false;
-            jumpingCollider.enabled = true;
-            standingCollider.enabled = false;
-        } else if (!standingCollider.enabled) {
+        if(animator.GetCurrentAnimatorStateInfo(0).IsName("Duck")){
+            if(!duckingCollider.enabled){
+                duckingCollider.enabled = true;
+                jumpingCollider.enabled = false;
+                standingCollider.enabled = false;
+            }
+        } else if(animator.GetCurrentAnimatorStateInfo(0).IsName("Jump")){
+            if(!jumpingCollider.enabled) {
+                duckingCollider.enabled = false;
+                jumpingCollider.enabled = true;
+                standingCollider.enabled = false;
+            }
+        } else if(!standingCollider.enabled) {
             duckingCollider.enabled = false;
             jumpingCollider.enabled = false;
             standingCollider.enabled = true;
