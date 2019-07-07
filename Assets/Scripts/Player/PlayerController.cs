@@ -11,19 +11,23 @@ public class PlayerController : MonoBehaviour
     private bool facingRight = true;
     private bool ducking = false;
     private bool aimUp = false;
+    private bool runAimUp = false;
     [SerializeField] private bool isGrounded = true;
 
     [SerializeField] Transform groundCheck;
     [SerializeField] Transform groundCheck2;
     [SerializeField] LayerMask groundLayer;
+    [SerializeField] LayerMask enemyLayer;
     [SerializeField] Transform firingPointIdle;
     [SerializeField] Transform firingPointJump;
     [SerializeField] Transform firingPointDuck;
     [SerializeField] Transform firingPointUp;
+    [SerializeField] Transform firingPointUpRight;
     [SerializeField] GameObject bulletRef;
     [SerializeField] BoxCollider2D standingCollider;
     [SerializeField] BoxCollider2D duckingCollider;
     [SerializeField] BoxCollider2D jumpingCollider;
+    [SerializeField] Transform spawnPoint;
 
     private Animator animator;
     private Rigidbody2D rb2d;
@@ -34,20 +38,26 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    private void OnCollisionEnter2D(Collision2D collision){
+        if(collision.gameObject.CompareTag("Enemy")){
+            StartCoroutine(Die());
+        }
+    }
+
     private void Update(){
         horizontal = Input.GetAxisRaw("Horizontal");
-        aimUp = Input.GetAxisRaw("Vertical") == 1 && rb2d.velocity.magnitude == 0;
+        runAimUp = Input.GetAxisRaw("Vertical") == 1 && horizontal != 0 && isGrounded;
+        aimUp = Input.GetAxisRaw("Vertical") == 1 && rb2d.velocity.magnitude == 0 && horizontal == 0;
         ducking = Input.GetAxisRaw("Vertical") == -1;
-        if(Input.GetButtonDown("Fire1")){
-            Fire();
-        }
+        UpdateAnimations();
         if(FacingWrongDirection()){
             Flip();    
         }
-        // if(aimUp)
 
         UpdateHitboxes();
-        UpdateAnimations();
+        if(Input.GetButtonDown("Fire1")){
+            Fire();
+        }
     }
 
     private void FixedUpdate(){
@@ -80,6 +90,8 @@ public class PlayerController : MonoBehaviour
             return firingPointDuck;
         } else if(aimUp){
             return firingPointUp;
+        } else if(runAimUp) {
+            return firingPointUpRight;
         } else {
             return firingPointIdle;
         }
@@ -103,6 +115,7 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsDucking", ducking);
         animator.SetBool("IsRunning", Mathf.Abs(horizontal) == 1);
         animator.SetBool("IsAimingUp", aimUp);
+        animator.SetBool("IsRunningAndAimingUp", runAimUp);
     }
 
     private void UpdateHitboxes(){
@@ -123,6 +136,16 @@ public class PlayerController : MonoBehaviour
             jumpingCollider.enabled = false;
             standingCollider.enabled = true;
         }
+    }
+
+    IEnumerator Die(){
+        animator.SetBool("IsDead", true);
+        rb2d.velocity = Vector2.zero;
+        enabled = false;
+        Physics2D.IgnoreLayerCollision(10, 11);
+        yield return new WaitForSeconds(3f);
+        Destroy(gameObject);
+        spawnPoint.GetComponent<SpawnScript>().SpawnPlayer(transform.position.z);
     }
 
 } 
