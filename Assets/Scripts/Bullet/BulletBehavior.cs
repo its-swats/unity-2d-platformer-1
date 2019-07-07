@@ -21,9 +21,7 @@ public class BulletBehavior : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo){
-        if(hitInfo.gameObject.layer == 8){
-            DeleteSelf();
-        } else if(hitInfo.gameObject.CompareTag("Enemy")){
+        if(hitInfo.gameObject.CompareTag("Enemy")){
             hitInfo.gameObject.GetComponent<Enemy>().Hit(bulletLife);
             DeleteSelf();
         }

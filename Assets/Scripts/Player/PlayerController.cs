@@ -43,6 +43,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collider){
+        if(collider.gameObject.CompareTag("OutOfBounds")){
+            StartCoroutine(Die());
+        }
+    }
+
     private void Update(){
         horizontal = Input.GetAxisRaw("Horizontal");
         runAimUp = Input.GetAxisRaw("Vertical") == 1 && horizontal != 0 && isGrounded;
@@ -101,9 +107,11 @@ public class PlayerController : MonoBehaviour
     }
 
     private bool CheckGround(){
+        Debug.DrawRay(groundCheck.transform.position, new Vector2(0, -0.15f), Color.white);
+        Debug.DrawRay(groundCheck2.transform.position, new Vector2(0, -0.15f), Color.white);
         RaycastHit2D hitOne = Physics2D.Raycast(groundCheck.transform.position, Vector2.down, 0.02f, groundLayer);
         RaycastHit2D hitTwo = Physics2D.Raycast(groundCheck2.transform.position, Vector2.down, 0.02f, groundLayer);
-        if ((hitOne.collider != null || hitTwo.collider != null) && rb2d.velocity.y == 0 ){
+        if ((hitOne.collider != null || hitTwo.collider != null) && rb2d.velocity.y <= 0 ){
             return true;
         }        
         return false;
