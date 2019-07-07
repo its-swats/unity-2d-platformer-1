@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] BoxCollider2D standingCollider;
     [SerializeField] BoxCollider2D duckingCollider;
     [SerializeField] BoxCollider2D jumpingCollider;
-    [SerializeField] Transform spawnPoint;
 
     private Animator animator;
     private Rigidbody2D rb2d;
@@ -139,13 +138,13 @@ public class PlayerController : MonoBehaviour
     }
 
     IEnumerator Die(){
+        Physics2D.IgnoreLayerCollision(10, 11, true);
         animator.SetBool("IsDead", true);
-        rb2d.velocity = Vector2.zero;
+        rb2d.velocity = new Vector2(0, 5);
         enabled = false;
-        Physics2D.IgnoreLayerCollision(10, 11);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         Destroy(gameObject);
-        spawnPoint.GetComponent<SpawnScript>().SpawnPlayer(transform.position.z);
+        Physics2D.IgnoreLayerCollision(10, 11, false);
+        SpawnScript.spawner.SpawnPlayer();
     }
-
 } 

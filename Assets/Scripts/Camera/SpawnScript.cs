@@ -6,8 +6,17 @@ public class SpawnScript : MonoBehaviour
 {
     [SerializeField] GameObject playerRef;
 
-    public void SpawnPlayer(float pos){
-        Vector3 spawnPos = new Vector3(transform.position.x, transform.position.y, pos);
-        Instantiate(playerRef, spawnPos, transform.rotation);        
+    public static SpawnScript spawner;
+
+    void Start(){
+        if(spawner == null){
+            spawner = GetComponent<SpawnScript>();
+        }
+
+        SpawnPlayer();
+    }
+
+    public void SpawnPlayer(){
+        Instantiate(playerRef, transform.position, transform.rotation);        
     }
 }
