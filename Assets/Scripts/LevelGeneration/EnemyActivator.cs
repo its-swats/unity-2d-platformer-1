@@ -8,9 +8,11 @@ public class EnemyActivator : MonoBehaviour
 
     void Update()
     {
-           RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10f, whatToTrigger);
-           if(hit.collider != null){
-               hit.collider.GetComponent<EnemySpawner>().SpawnEnemy();
-           }
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10f, whatToTrigger);
+        Debug.Log(hit.collider);
+        if(hit.collider != null){
+            Debug.Log("Collider");
+            hit.collider.GetComponent<EnemySpawner>().SpawnEnemy();
+        }
     }
 }
