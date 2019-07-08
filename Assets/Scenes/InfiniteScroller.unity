@@ -273,9 +273,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
         type: 3}
+      propertyPath: battlefieldPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
+        type: 3}
+      propertyPath: transitionPrefabs.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
+        type: 3}
       propertyPath: currentLayout
       value: 
       objectReference: {fileID: 1658572694}
+    - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
+        type: 3}
+      propertyPath: battlefieldPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 4417861515381595288, guid: 4ba06d7b5032dde4f857ab1ff991c29a,
+        type: 3}
+    - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
+        type: 3}
+      propertyPath: chanceForBattlefield
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
+        type: 3}
+      propertyPath: transitionPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 5550278427252789786, guid: 696b12ffb5974e54f8310a388f1cff80,
+        type: 3}
+    - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
+        type: 3}
+      propertyPath: transitionPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 1705928488254715923, guid: 48bc3df175a366d4b8feb1f7a74f6c22,
+        type: 3}
+    - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
+        type: 3}
+      propertyPath: transitionPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 309106619858831710, guid: 07738bfc6722ef7469ca10b5e6032004,
+        type: 3}
+    - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
+        type: 3}
+      propertyPath: transitionPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 8513301893367361212, guid: 601d9fc6112de9f49931ed460092ef14,
+        type: 3}
+    - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
+        type: 3}
+      propertyPath: transitionPrefabs.Array.data[4]
+      value: 
+      objectReference: {fileID: 7892670017482113301, guid: 5a431ee32ea7c5444865ee78d0ea92f1,
+        type: 3}
+    - target: {fileID: 8667803286915021858, guid: 5f16850769f3a8748ad8ff6ba3d3d178,
+        type: 3}
+      propertyPath: transitionPrefabs.Array.data[5]
+      value: 
+      objectReference: {fileID: 1633268590377845760, guid: 0c2b11e2dfddce847a91dba2ab64329e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f16850769f3a8748ad8ff6ba3d3d178, type: 3}
 --- !u!4 &1632247796 stripped
@@ -356,6 +413,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Transition_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7892670017482113301, guid: 5a431ee32ea7c5444865ee78d0ea92f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a431ee32ea7c5444865ee78d0ea92f1, type: 3}

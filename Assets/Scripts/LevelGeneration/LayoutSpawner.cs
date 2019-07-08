@@ -5,8 +5,10 @@ using UnityEngine;
 public class LayoutSpawner : MonoBehaviour
 {
     [SerializeField] private Transform currentLayout; 
-    [SerializeField] private GameObject[] layoutPrefabs;
+    [SerializeField] private GameObject[] transitionPrefabs;
+    [SerializeField] private GameObject[] battlefieldPrefabs;
     [SerializeField] private LayerMask spawnWhenNotFound;
+    [Range(0f, 1f)][SerializeField] private float chanceForBattlefield;
 
     private Transform previousLayout = null;
 
@@ -18,10 +20,9 @@ public class LayoutSpawner : MonoBehaviour
     }
 
     void SpawnNextLayout(){
-        int rand = Random.Range(0, layoutPrefabs.Length);
         Transform layoutToDestroy = previousLayout;
         previousLayout = currentLayout;
-        currentLayout = Instantiate(layoutPrefabs[rand], CalculateNewPosition(), transform.rotation).transform;
+        currentLayout = Instantiate(SelectNextPrefab(), CalculateNewPosition(), transform.rotation).transform;
         if(layoutToDestroy != null) { Destroy(layoutToDestroy.gameObject); }
     }
 
@@ -35,6 +36,17 @@ public class LayoutSpawner : MonoBehaviour
 
     private Vector2 CalculateNewPosition(){
         float min = currentLayout.GetComponent<LayoutBounds>().minBounds.x;
-        return new Vector2(MaxBounds().x + ((MaxBounds().x - min) / 2 + 1), 0);
+        return new Vector2(MaxBounds().x + Random.Range(1,3), 0);
+    }
+
+    private GameObject SelectNextPrefab(){
+        float num = Random.Range(0f, 1f);
+        if(num < chanceForBattlefield){
+            int rand = Random.Range(0, battlefieldPrefabs.Length);
+            return battlefieldPrefabs[rand];
+        } else {
+            int rand = Random.Range(0, transitionPrefabs.Length);
+            return transitionPrefabs[rand];
+        }
     }
 }
