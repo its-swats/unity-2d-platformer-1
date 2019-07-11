@@ -109,9 +109,11 @@ public class PlayerController : MonoBehaviour
     private bool CheckGround(){
         Debug.DrawRay(groundCheck.transform.position, new Vector2(0, -0.15f), Color.white);
         Debug.DrawRay(groundCheck2.transform.position, new Vector2(0, -0.15f), Color.white);
-        RaycastHit2D hitOne = Physics2D.Raycast(groundCheck.transform.position, Vector2.down, 0.02f, groundLayer);
-        RaycastHit2D hitTwo = Physics2D.Raycast(groundCheck2.transform.position, Vector2.down, 0.02f, groundLayer);
-        if ((hitOne.collider != null || hitTwo.collider != null) && rb2d.velocity.y <= 0 ){
+        RaycastHit2D hitOne = Physics2D.Raycast(groundCheck.transform.position, Vector2.down, 0.15f, groundLayer);
+        RaycastHit2D hitTwo = Physics2D.Raycast(groundCheck2.transform.position, Vector2.down, 0.15f, groundLayer);
+        if ((hitOne.collider != null || hitTwo.collider != null)){
+            if(hitOne.collider != null)
+                Debug.Log(hitOne.collider.gameObject.name);
             return true;
         }        
         return false;

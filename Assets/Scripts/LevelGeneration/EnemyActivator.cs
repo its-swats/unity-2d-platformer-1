@@ -11,8 +11,8 @@ public class EnemyActivator : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10f, whatToTrigger);
         Debug.Log(hit.collider);
         if(hit.collider != null){
-            Debug.Log("Collider");
             hit.collider.GetComponent<EnemySpawner>().SpawnEnemy();
+            Destroy(hit.collider.gameObject);
         }
     }
 }
