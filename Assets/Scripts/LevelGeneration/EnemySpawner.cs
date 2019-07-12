@@ -8,7 +8,6 @@ public class EnemySpawner : MonoBehaviour
     private bool active = true;
 
     public void SpawnEnemy(){
-        Debug.Log("Hit");
         if(active){
             int enemyIdx = Random.Range(0, enemyArray.Length);
             Instantiate(enemyArray[enemyIdx], transform.position, transform.rotation);
