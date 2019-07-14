@@ -24,11 +24,5 @@ public class LayoutBounds : MonoBehaviour
                 minBounds = child;
             }
         }
-
-        // return new Vector2(minBounds.x, minBounds)
     }
 }
-
-// -11, 23
-
-// -14, 22

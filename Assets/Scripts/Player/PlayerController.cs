@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     private float horizontal;
     private float vertical;
 
+    private bool dying = false;
+
     private bool facingRight = true;
     private bool ducking = false;
     private bool aimUp = false;
@@ -40,12 +42,14 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collider){
-        if(collider.gameObject.CompareTag("OutOfBounds")){
-            StartCoroutine(Die());
-        }
+        if(!dying){
+            if(collider.gameObject.CompareTag("OutOfBounds")){
+                StartCoroutine(Die());
+            }
 
-        if(collider.gameObject.CompareTag("Enemy")){
-            StartCoroutine(Die());
+            if(collider.gameObject.CompareTag("Enemy")){
+                StartCoroutine(Die());
+            }
         }
     }
 
@@ -152,7 +156,7 @@ public class PlayerController : MonoBehaviour
     }
 
     IEnumerator Die(){
-        // Debug.Log("Die!");
+        dying = true;
         enabled = false;
         Physics2D.IgnoreLayerCollision(10, 11, true);
         animator.SetBool("IsDead", true);
@@ -161,5 +165,6 @@ public class PlayerController : MonoBehaviour
         Destroy(gameObject);
         Physics2D.IgnoreLayerCollision(10, 11, false);
         SpawnScript.spawner.SpawnPlayer();
+        dying = false;
     }
 } 

@@ -44,8 +44,8 @@ public class LayoutSpawner : MonoBehaviour
     }
 
     private Vector2 CalculateNewPosition(Transform connectionPoint, Tilemap tilemap){
-        Debug.Log(connectionPoint.position.x);
-        Debug.Log($"{tilemap.cellBounds.xMin}, {tilemap.cellBounds.xMax}, {tilemap.cellBounds.size}, {tilemap.cellBounds.position}");
+        // Debug.Log(connectionPoint.position.x);
+        // Debug.Log($"{tilemap.cellBounds.xMin}, {tilemap.cellBounds.xMax}, {tilemap.cellBounds.size}, {tilemap.cellBounds.position}");
 
         // return new Vector2(connectionPoint.position.x + .25f + Mathf.Abs(tilemap.cellBounds.xMin) - tilemap.cellBounds.xMax / 2 * .75f, 0);
         return new Vector2(connectionPoint.position.x + Mathf.Abs(tilemap.cellBounds.xMin + 5), 0);
