@@ -17,6 +17,7 @@ public class SpawnScript : MonoBehaviour
     }
 
     public void SpawnPlayer(){
+        Debug.Log("Spawning Player");
         Instantiate(playerRef, transform.position, transform.rotation);        
     }
 }

@@ -1,25 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class LayoutBounds : MonoBehaviour
 {
-    public Vector2 maxBounds;
-    public Vector2 minBounds;
+    public Vector3 maxBounds;
+    public Vector3 minBounds;
 
-    void Start(){   
-        foreach(Transform child in transform){
-            if(maxBounds == Vector2.zero){
-                maxBounds = child.position;
-            } else if(child.position.x > maxBounds.x){
-                maxBounds = child.position;
+    void Start(){
+        Tilemap tilemap = transform.Find("Foreground").GetComponent<Tilemap>();
+
+        foreach(var child in tilemap.cellBounds.allPositionsWithin){
+            if(maxBounds == Vector3.zero){
+                maxBounds = child;
+            } else if(child.x > maxBounds.x){
+                maxBounds = child;
             }
             
-            if(minBounds == Vector2.zero){
-                minBounds = child.position;
-            } else if(child.position.x < minBounds.x){
-                minBounds = child.position;
+            if(minBounds == Vector3.zero){
+                minBounds = child;
+            } else if(child.x < minBounds.x){
+                minBounds = child;
             }
         }
+
+        // return new Vector2(minBounds.x, minBounds)
     }
 }
+
+// -11, 23
+
+// -14, 22

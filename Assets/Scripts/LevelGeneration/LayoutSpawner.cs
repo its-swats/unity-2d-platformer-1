@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class LayoutSpawner : MonoBehaviour
 {
@@ -8,21 +9,29 @@ public class LayoutSpawner : MonoBehaviour
     [SerializeField] private GameObject[] transitionPrefabs;
     [SerializeField] private GameObject[] battlefieldPrefabs;
     [SerializeField] private LayerMask spawnWhenNotFound;
+    [SerializeField] private LayerMask spawnWhenFound;
     [Range(0f, 1f)][SerializeField] private float chanceForBattlefield;
 
     private Transform previousLayout = null;
 
     void Update(){
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10f, spawnWhenNotFound);
-        if(hit.collider == null && ReachedMaxBounds()){
-            SpawnNextLayout();
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10f);
+        if(hit.collider != null && hit.collider.CompareTag("ConnectionPoint")){
+            SpawnNextLayout(hit.collider.transform);
+            hit.collider.gameObject.SetActive(false);
         }
     }
 
-    void SpawnNextLayout(){
+    void SpawnNextLayout(Transform connectionPoint){
         Transform layoutToDestroy = previousLayout;
         previousLayout = currentLayout;
-        currentLayout = Instantiate(SelectNextPrefab(), CalculateNewPosition(), transform.rotation).transform;
+        
+        GameObject nextPrefab = SelectNextPrefab();
+        Tilemap tilemap = nextPrefab.transform.Find("Foreground").GetComponent<Tilemap>();
+
+        Vector2 newPosition = CalculateNewPosition(connectionPoint, tilemap);
+        
+        currentLayout = Instantiate(nextPrefab, newPosition, transform.rotation).transform;
         if(layoutToDestroy != null) { Destroy(layoutToDestroy.gameObject); }
     }
 
@@ -30,13 +39,16 @@ public class LayoutSpawner : MonoBehaviour
         return transform.position.x >= MaxBounds().x;
     }
 
-    private Vector2 MaxBounds(){
+    private Vector3 MaxBounds(){
         return currentLayout.GetComponent<LayoutBounds>().maxBounds;
     }
 
-    private Vector2 CalculateNewPosition(){
-        float min = currentLayout.GetComponent<LayoutBounds>().minBounds.x;
-        return new Vector2(MaxBounds().x + Random.Range(1,3), 0);
+    private Vector2 CalculateNewPosition(Transform connectionPoint, Tilemap tilemap){
+        Debug.Log(connectionPoint.position.x);
+        Debug.Log($"{tilemap.cellBounds.xMin}, {tilemap.cellBounds.xMax}, {tilemap.cellBounds.size}, {tilemap.cellBounds.position}");
+
+        // return new Vector2(connectionPoint.position.x + .25f + Mathf.Abs(tilemap.cellBounds.xMin) - tilemap.cellBounds.xMax / 2 * .75f, 0);
+        return new Vector2(connectionPoint.position.x + Mathf.Abs(tilemap.cellBounds.xMin + 5), 0);
     }
 
     private GameObject SelectNextPrefab(){

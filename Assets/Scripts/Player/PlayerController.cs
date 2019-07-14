@@ -152,10 +152,11 @@ public class PlayerController : MonoBehaviour
     }
 
     IEnumerator Die(){
+        // Debug.Log("Die!");
+        enabled = false;
         Physics2D.IgnoreLayerCollision(10, 11, true);
         animator.SetBool("IsDead", true);
         rb2d.velocity = new Vector2(0, 5);
-        enabled = false;
         yield return new WaitForSeconds(2f);
         Destroy(gameObject);
         Physics2D.IgnoreLayerCollision(10, 11, false);
