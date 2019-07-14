@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] private Enemy enemy;
+    [SerializeField] private float moveSpeed;
     private Rigidbody2D rb2d;
 
     void Start(){
@@ -12,6 +12,6 @@ public class EnemyMovement : MonoBehaviour
     }
 
     void FixedUpdate(){
-        rb2d.velocity = new Vector2(-enemy.moveSpeed, rb2d.velocity.y);
+        rb2d.velocity = new Vector2(-moveSpeed, rb2d.velocity.y);
     }
 }

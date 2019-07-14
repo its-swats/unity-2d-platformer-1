@@ -155,7 +155,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    IEnumerator Die(){
+    public IEnumerator Die(){
         dying = true;
         enabled = false;
         Physics2D.IgnoreLayerCollision(10, 11, true);

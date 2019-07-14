@@ -235,10 +235,10 @@ TextureImporter:
     second: ContraSheet3_76
   - first:
       213: -805445698231732873
-    second: ContraSheet3_77
+    second: TurretGuy_1
   - first:
       213: -8867368688906340067
-    second: ContraSheet3_78
+    second: TurretGuy_2
   - first:
       213: 3755666621149117840
     second: ContraSheet3_79
@@ -404,8 +404,8 @@ TextureImporter:
       name: ContraSheet3_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 479
+        x: 49
+        y: 483
         width: 18
         height: 39
       alignment: 7
@@ -2018,7 +2018,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet3_77
+      name: TurretGuy_1
       rect:
         serializedVersion: 2
         x: 84
@@ -2039,7 +2039,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet3_78
+      name: TurretGuy_2
       rect:
         serializedVersion: 2
         x: 121

@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class BulletBehavior : MonoBehaviour
 {
+    [SerializeField] private LayerMask whatToHit;
+
     private Rigidbody2D rb2d;
     private float speed = 4;
-    private float bulletLife = 2;
     private float bulletDamage = 1;
     
     void Start()
@@ -17,12 +18,12 @@ public class BulletBehavior : MonoBehaviour
 
     void Fire(){
         rb2d.velocity = transform.right * speed;
-        Invoke("DeleteSelf", bulletLife);
+        Invoke("DeleteSelf", bulletDamage);
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo){
-        if(hitInfo.gameObject.CompareTag("Enemy")){
-            hitInfo.gameObject.GetComponent<Enemy>().Hit(bulletLife);
+        if ((whatToHit & 1 << hitInfo.gameObject.layer) == 1 << hitInfo.gameObject.layer){
+            hitInfo.gameObject.GetComponent<Health>().Hit(bulletDamage);
             DeleteSelf();
         }
     }

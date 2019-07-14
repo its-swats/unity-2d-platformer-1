@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Health : MonoBehaviour
 {
     [SerializeField] private float health;
-    [SerializeField] public float moveSpeed;
-
+    [SerializeField] private bool isPlayer;
+ 
     public void Hit(float damage){
         health -= damage;
         if(health <= 0){
@@ -15,7 +15,11 @@ public class Enemy : MonoBehaviour
     }
 
     private void DestroySelf(){
-        Destroy(gameObject);
+        if(isPlayer){
+            StartCoroutine(GetComponent<PlayerController>().Die());
+        } else {
+            Destroy(gameObject);
+        }
     }
 
 }
