@@ -136,3 +136,4 @@ MonoBehaviour:
   whatToHit:
     serializedVersion: 2
     m_Bits: 2048
+  bulletTravelTime: 1.5

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5352708579032675737}
   - component: {fileID: -2068213700021754340}
   - component: {fileID: 1282012840308902932}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: EnemyShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,3 +135,4 @@ MonoBehaviour:
   whatToHit:
     serializedVersion: 2
     m_Bits: 1024
+  bulletTravelTime: 1.5

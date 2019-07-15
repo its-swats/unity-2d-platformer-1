@@ -5,6 +5,7 @@ using UnityEngine;
 public class BulletBehavior : MonoBehaviour
 {
     [SerializeField] private LayerMask whatToHit;
+    [SerializeField] private float bulletTravelTime;
 
     private Rigidbody2D rb2d;
     private float speed = 4;
@@ -18,7 +19,7 @@ public class BulletBehavior : MonoBehaviour
 
     void Fire(){
         rb2d.velocity = transform.right * speed;
-        Invoke("DeleteSelf", bulletDamage);
+        Invoke("DeleteSelf", bulletTravelTime);
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo){

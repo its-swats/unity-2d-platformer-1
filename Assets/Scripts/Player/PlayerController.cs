@@ -42,7 +42,6 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collider){
-        if(!dying){
             if(collider.gameObject.CompareTag("OutOfBounds")){
                 StartCoroutine(Die());
             }
@@ -50,7 +49,6 @@ public class PlayerController : MonoBehaviour
             if(collider.gameObject.CompareTag("Enemy")){
                 StartCoroutine(Die());
             }
-        }
     }
 
     private void Update(){
@@ -156,15 +154,17 @@ public class PlayerController : MonoBehaviour
     }
 
     public IEnumerator Die(){
-        dying = true;
-        enabled = false;
-        Physics2D.IgnoreLayerCollision(10, 11, true);
-        animator.SetBool("IsDead", true);
-        rb2d.velocity = new Vector2(0, 5);
-        yield return new WaitForSeconds(2f);
-        Destroy(gameObject);
-        Physics2D.IgnoreLayerCollision(10, 11, false);
-        SpawnScript.spawner.SpawnPlayer();
-        dying = false;
+        if(!dying){
+            dying = true;
+            enabled = false;
+            Physics2D.IgnoreLayerCollision(10, 11, true);
+            animator.SetBool("IsDead", true);
+            rb2d.velocity = new Vector2(0, 5);
+            yield return new WaitForSeconds(2f);
+            Destroy(gameObject);
+            Physics2D.IgnoreLayerCollision(10, 11, false);
+            SpawnScript.spawner.SpawnPlayer();
+            dying = false;
+        }
     }
 } 
