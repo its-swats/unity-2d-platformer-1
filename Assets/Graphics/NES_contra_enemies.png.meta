@@ -1,0 +1,5059 @@
+fileFormatVersion: 2
+guid: c51ad738223e0e14bba19b3f58c64487
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6889437787313274444
+    second: NES_contra_enemies_0
+  - first:
+      213: -7624084329945874369
+    second: NES_contra_enemies_1
+  - first:
+      213: 419652762283999431
+    second: NES_contra_enemies_2
+  - first:
+      213: 464872600965383920
+    second: NES_contra_enemies_3
+  - first:
+      213: -7214591625194486977
+    second: NES_contra_enemies_4
+  - first:
+      213: -7729536848943337611
+    second: NES_contra_enemies_5
+  - first:
+      213: -9220379489200732551
+    second: NES_contra_enemies_6
+  - first:
+      213: -1699798156017573544
+    second: NES_contra_enemies_7
+  - first:
+      213: 8396319362017248305
+    second: NES_contra_enemies_8
+  - first:
+      213: -4343052788160598147
+    second: NES_contra_enemies_9
+  - first:
+      213: -1449613508728070267
+    second: NES_contra_enemies_10
+  - first:
+      213: -2974042352950513775
+    second: NES_contra_enemies_11
+  - first:
+      213: 6177335285047666396
+    second: NES_contra_enemies_12
+  - first:
+      213: 8525580951836248538
+    second: NES_contra_enemies_13
+  - first:
+      213: -7712305710659746322
+    second: NES_contra_enemies_14
+  - first:
+      213: 1078302591088581159
+    second: NES_contra_enemies_15
+  - first:
+      213: -3802032046844490932
+    second: NES_contra_enemies_16
+  - first:
+      213: 2541000067362538578
+    second: NES_contra_enemies_17
+  - first:
+      213: -4646310858812523170
+    second: NES_contra_enemies_18
+  - first:
+      213: 2872933928470303296
+    second: NES_contra_enemies_19
+  - first:
+      213: 1441162218433453675
+    second: NES_contra_enemies_20
+  - first:
+      213: -6878064730893129429
+    second: NES_contra_enemies_21
+  - first:
+      213: -937199237349262411
+    second: NES_contra_enemies_22
+  - first:
+      213: -2330328939857850167
+    second: NES_contra_enemies_23
+  - first:
+      213: 2669275822180000030
+    second: NES_contra_enemies_24
+  - first:
+      213: -2780625066448679423
+    second: NES_contra_enemies_25
+  - first:
+      213: 7073024016660786707
+    second: NES_contra_enemies_26
+  - first:
+      213: 507312147936228839
+    second: NES_contra_enemies_27
+  - first:
+      213: 6205106171045293695
+    second: NES_contra_enemies_28
+  - first:
+      213: -7598271153575360541
+    second: NES_contra_enemies_29
+  - first:
+      213: -1430989477899472855
+    second: NES_contra_enemies_30
+  - first:
+      213: 8017748509540142486
+    second: NES_contra_enemies_31
+  - first:
+      213: 4664936639977628361
+    second: NES_contra_enemies_32
+  - first:
+      213: 131215892430686866
+    second: NES_contra_enemies_33
+  - first:
+      213: -7877292906011370623
+    second: NES_contra_enemies_34
+  - first:
+      213: -5155285610373541887
+    second: NES_contra_enemies_35
+  - first:
+      213: 3984848788618955576
+    second: NES_contra_enemies_36
+  - first:
+      213: -932727549588407959
+    second: NES_contra_enemies_37
+  - first:
+      213: 497967275092274880
+    second: NES_contra_enemies_38
+  - first:
+      213: 5792918044808452825
+    second: NES_contra_enemies_39
+  - first:
+      213: 5074874916742070025
+    second: NES_contra_enemies_40
+  - first:
+      213: -8212524831426962675
+    second: NES_contra_enemies_41
+  - first:
+      213: -350676568592758644
+    second: NES_contra_enemies_42
+  - first:
+      213: -4807349782985852799
+    second: NES_contra_enemies_43
+  - first:
+      213: 8477266025570797415
+    second: NES_contra_enemies_44
+  - first:
+      213: 470733916826592118
+    second: NES_contra_enemies_45
+  - first:
+      213: 958169142175714036
+    second: NES_contra_enemies_46
+  - first:
+      213: 8733691572801373143
+    second: NES_contra_enemies_47
+  - first:
+      213: -1381389824938744569
+    second: NES_contra_enemies_48
+  - first:
+      213: -4629904543663436653
+    second: NES_contra_enemies_49
+  - first:
+      213: 7160771865132854537
+    second: NES_contra_enemies_50
+  - first:
+      213: -7291200044000034057
+    second: NES_contra_enemies_51
+  - first:
+      213: 2619340757392984216
+    second: NES_contra_enemies_52
+  - first:
+      213: -3555617978517674832
+    second: NES_contra_enemies_53
+  - first:
+      213: 4777568833576396398
+    second: NES_contra_enemies_54
+  - first:
+      213: -4234184727782359346
+    second: NES_contra_enemies_55
+  - first:
+      213: -4367902633853842083
+    second: NES_contra_enemies_56
+  - first:
+      213: -2216157170476744131
+    second: NES_contra_enemies_57
+  - first:
+      213: -8413515054240510056
+    second: NES_contra_enemies_58
+  - first:
+      213: -5101581717614648751
+    second: NES_contra_enemies_59
+  - first:
+      213: -7101549437940678213
+    second: NES_contra_enemies_60
+  - first:
+      213: -3026164200355001517
+    second: NES_contra_enemies_61
+  - first:
+      213: -4031964315311316991
+    second: NES_contra_enemies_62
+  - first:
+      213: -4391587331095040478
+    second: NES_contra_enemies_63
+  - first:
+      213: 3917991936745686265
+    second: NES_contra_enemies_64
+  - first:
+      213: -2897372839789191082
+    second: NES_contra_enemies_65
+  - first:
+      213: 4543763573043188403
+    second: NES_contra_enemies_66
+  - first:
+      213: -8127897536390092802
+    second: NES_contra_enemies_67
+  - first:
+      213: -4423755461069134485
+    second: NES_contra_enemies_68
+  - first:
+      213: -7982594055791183158
+    second: NES_contra_enemies_69
+  - first:
+      213: -5300541275530967003
+    second: NES_contra_enemies_70
+  - first:
+      213: 5353655367571454754
+    second: NES_contra_enemies_71
+  - first:
+      213: 7935196757430481353
+    second: NES_contra_enemies_72
+  - first:
+      213: 2817312377117146184
+    second: NES_contra_enemies_73
+  - first:
+      213: 3346169147836299670
+    second: NES_contra_enemies_74
+  - first:
+      213: 5620430576438299483
+    second: NES_contra_enemies_75
+  - first:
+      213: -4640283263111696064
+    second: NES_contra_enemies_76
+  - first:
+      213: -698087930973269434
+    second: NES_contra_enemies_77
+  - first:
+      213: 2623756423514646755
+    second: NES_contra_enemies_78
+  - first:
+      213: 5100884902734328563
+    second: NES_contra_enemies_79
+  - first:
+      213: 3948657681160604093
+    second: NES_contra_enemies_80
+  - first:
+      213: 5352861490702328042
+    second: NES_contra_enemies_81
+  - first:
+      213: 9218779071791018682
+    second: NES_contra_enemies_82
+  - first:
+      213: -498880245149204484
+    second: NES_contra_enemies_83
+  - first:
+      213: -8640660053382258264
+    second: NES_contra_enemies_84
+  - first:
+      213: 1844207267192880707
+    second: NES_contra_enemies_85
+  - first:
+      213: -3633980855897183797
+    second: NES_contra_enemies_86
+  - first:
+      213: 4677776755948199965
+    second: NES_contra_enemies_87
+  - first:
+      213: -285782037674026987
+    second: NES_contra_enemies_88
+  - first:
+      213: 6444441383912433693
+    second: NES_contra_enemies_89
+  - first:
+      213: 4081257860535688150
+    second: NES_contra_enemies_90
+  - first:
+      213: 1645722003275432010
+    second: NES_contra_enemies_91
+  - first:
+      213: 3039915053909684739
+    second: NES_contra_enemies_92
+  - first:
+      213: 7024915124718389786
+    second: NES_contra_enemies_93
+  - first:
+      213: 3547307847380877878
+    second: NES_contra_enemies_94
+  - first:
+      213: 1341346065968110516
+    second: NES_contra_enemies_95
+  - first:
+      213: -2672894643625554058
+    second: NES_contra_enemies_96
+  - first:
+      213: -626873389499293506
+    second: NES_contra_enemies_97
+  - first:
+      213: 4524183438569782206
+    second: NES_contra_enemies_98
+  - first:
+      213: -7842368824682226955
+    second: NES_contra_enemies_99
+  - first:
+      213: 1498798125334195175
+    second: NES_contra_enemies_100
+  - first:
+      213: -8323819263857512563
+    second: NES_contra_enemies_101
+  - first:
+      213: 3312376098840271335
+    second: NES_contra_enemies_102
+  - first:
+      213: -1327435728037462703
+    second: NES_contra_enemies_103
+  - first:
+      213: -2920812542847538167
+    second: NES_contra_enemies_104
+  - first:
+      213: 4457810591707631332
+    second: NES_contra_enemies_105
+  - first:
+      213: -2281481087267586473
+    second: NES_contra_enemies_106
+  - first:
+      213: -3081277370725777535
+    second: NES_contra_enemies_107
+  - first:
+      213: 4664161259832977746
+    second: NES_contra_enemies_108
+  - first:
+      213: 5948597638341934493
+    second: NES_contra_enemies_109
+  - first:
+      213: -8092053662138212022
+    second: NES_contra_enemies_110
+  - first:
+      213: 786852121183701521
+    second: NES_contra_enemies_111
+  - first:
+      213: 5804908603744553194
+    second: NES_contra_enemies_112
+  - first:
+      213: 4050455234219434777
+    second: NES_contra_enemies_113
+  - first:
+      213: -7877221806109070251
+    second: NES_contra_enemies_114
+  - first:
+      213: -8429987672938323235
+    second: NES_contra_enemies_115
+  - first:
+      213: 2477811611222121725
+    second: NES_contra_enemies_116
+  - first:
+      213: 6235082876703640301
+    second: NES_contra_enemies_117
+  - first:
+      213: 2985226589772411673
+    second: NES_contra_enemies_118
+  - first:
+      213: -3940167824637028668
+    second: NES_contra_enemies_119
+  - first:
+      213: 1619438232340595020
+    second: NES_contra_enemies_120
+  - first:
+      213: 8815663636375763132
+    second: NES_contra_enemies_121
+  - first:
+      213: -4111708565355704662
+    second: NES_contra_enemies_122
+  - first:
+      213: 7225811949737234294
+    second: NES_contra_enemies_123
+  - first:
+      213: 1599289289913793339
+    second: NES_contra_enemies_124
+  - first:
+      213: -1111732519946910834
+    second: NES_contra_enemies_125
+  - first:
+      213: -8437517078338941577
+    second: NES_contra_enemies_126
+  - first:
+      213: -6798881934957823397
+    second: NES_contra_enemies_127
+  - first:
+      213: 8247419238090369598
+    second: NES_contra_enemies_128
+  - first:
+      213: -5992576452452132455
+    second: NES_contra_enemies_129
+  - first:
+      213: -9145081514757301940
+    second: NES_contra_enemies_130
+  - first:
+      213: 6403130323366908088
+    second: NES_contra_enemies_131
+  - first:
+      213: -3393352015632801620
+    second: NES_contra_enemies_132
+  - first:
+      213: 7330554585133041737
+    second: NES_contra_enemies_133
+  - first:
+      213: 2394093311143569448
+    second: NES_contra_enemies_134
+  - first:
+      213: 6462343512714046771
+    second: NES_contra_enemies_135
+  - first:
+      213: -8201853098282740295
+    second: NES_contra_enemies_136
+  - first:
+      213: 6852846306077230970
+    second: NES_contra_enemies_137
+  - first:
+      213: 4556055106008210742
+    second: NES_contra_enemies_138
+  - first:
+      213: 1849579087922660501
+    second: NES_contra_enemies_139
+  - first:
+      213: 6298643703312280951
+    second: NES_contra_enemies_140
+  - first:
+      213: -3190168636645725330
+    second: NES_contra_enemies_141
+  - first:
+      213: -8888552714086174302
+    second: NES_contra_enemies_142
+  - first:
+      213: -4984688722928997283
+    second: NES_contra_enemies_143
+  - first:
+      213: 1714179753976749031
+    second: NES_contra_enemies_144
+  - first:
+      213: 268676102778729108
+    second: NES_contra_enemies_145
+  - first:
+      213: 4859057943572152175
+    second: NES_contra_enemies_146
+  - first:
+      213: 5618960396560120881
+    second: NES_contra_enemies_147
+  - first:
+      213: 1626712046214514705
+    second: NES_contra_enemies_148
+  - first:
+      213: -3173550814230386874
+    second: NES_contra_enemies_149
+  - first:
+      213: 6764520620913544632
+    second: NES_contra_enemies_150
+  - first:
+      213: 9190951765386961669
+    second: NES_contra_enemies_151
+  - first:
+      213: 3754334183957929246
+    second: NES_contra_enemies_152
+  - first:
+      213: 6350712716906767399
+    second: NES_contra_enemies_153
+  - first:
+      213: 8523136178113722988
+    second: NES_contra_enemies_154
+  - first:
+      213: 7940269806550020108
+    second: NES_contra_enemies_155
+  - first:
+      213: -6243492725482676109
+    second: NES_contra_enemies_156
+  - first:
+      213: -2876787329881759407
+    second: NES_contra_enemies_157
+  - first:
+      213: -5665487357419849222
+    second: NES_contra_enemies_158
+  - first:
+      213: 5099058228877088798
+    second: NES_contra_enemies_159
+  - first:
+      213: 2163424661748002303
+    second: NES_contra_enemies_160
+  - first:
+      213: -2589379044500801574
+    second: NES_contra_enemies_161
+  - first:
+      213: 7094103244684916041
+    second: NES_contra_enemies_162
+  - first:
+      213: 9135977033699342632
+    second: NES_contra_enemies_163
+  - first:
+      213: 1360564677580760900
+    second: NES_contra_enemies_164
+  - first:
+      213: 3570078052056312846
+    second: NES_contra_enemies_165
+  - first:
+      213: -1554080756674512150
+    second: NES_contra_enemies_166
+  - first:
+      213: 4732759396486649345
+    second: NES_contra_enemies_167
+  - first:
+      213: 4781441131865713712
+    second: NES_contra_enemies_168
+  - first:
+      213: 6144552421556199039
+    second: NES_contra_enemies_169
+  - first:
+      213: 9102598455525771976
+    second: NES_contra_enemies_170
+  - first:
+      213: -8387291994409999426
+    second: NES_contra_enemies_171
+  - first:
+      213: 2273224766073567199
+    second: NES_contra_enemies_172
+  - first:
+      213: -2632507829739747138
+    second: NES_contra_enemies_173
+  - first:
+      213: 5755996832136363631
+    second: NES_contra_enemies_174
+  - first:
+      213: -1798534622322771743
+    second: NES_contra_enemies_175
+  - first:
+      213: 793362730096362359
+    second: NES_contra_enemies_176
+  - first:
+      213: -4529587698687382788
+    second: NES_contra_enemies_177
+  - first:
+      213: -8866232473005994703
+    second: NES_contra_enemies_178
+  - first:
+      213: -8921205765604469066
+    second: NES_contra_enemies_179
+  - first:
+      213: -2412850572678681735
+    second: NES_contra_enemies_180
+  - first:
+      213: -1795446860098505469
+    second: NES_contra_enemies_181
+  - first:
+      213: 2781065215201048143
+    second: NES_contra_enemies_182
+  - first:
+      213: -8640145253282655126
+    second: NES_contra_enemies_183
+  - first:
+      213: -8299899785158530702
+    second: NES_contra_enemies_184
+  - first:
+      213: 7698608643317013256
+    second: NES_contra_enemies_185
+  - first:
+      213: 1186295336826209439
+    second: NES_contra_enemies_186
+  - first:
+      213: -7799242421812689134
+    second: NES_contra_enemies_187
+  - first:
+      213: 5070197690011788643
+    second: Explosion1_1
+  - first:
+      213: 3563958213308516570
+    second: Explosion1_2
+  - first:
+      213: -6535378651979640892
+    second: Explosion1_3
+  - first:
+      213: -5607088959600869523
+    second: NES_contra_enemies_191
+  - first:
+      213: -2695639910534920893
+    second: Explosion3_1
+  - first:
+      213: 1740039120388472962
+    second: Explosion3_2
+  - first:
+      213: -847446916027367136
+    second: Explosion3_3
+  - first:
+      213: 2377414925497306460
+    second: Explosion2_1
+  - first:
+      213: -4366686689551586297
+    second: Explosion2_2
+  - first:
+      213: 6358716230168295424
+    second: Explosion2_3
+  - first:
+      213: -8903017868037589126
+    second: NES_contra_enemies_198
+  - first:
+      213: 6125623715508733705
+    second: NES_contra_enemies_199
+  - first:
+      213: 9140413419854048444
+    second: NES_contra_enemies_200
+  - first:
+      213: 1307647463369658949
+    second: NES_contra_enemies_201
+  - first:
+      213: 2394480575949316065
+    second: NES_contra_enemies_202
+  - first:
+      213: -1992136863140719822
+    second: NES_contra_enemies_203
+  - first:
+      213: -2648747273943139922
+    second: NES_contra_enemies_204
+  - first:
+      213: 7925456986461525429
+    second: NES_contra_enemies_205
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES_contra_enemies_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 610
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5feb6bca28661448a56df8f1918d689
+      internalID: 6889437787313274444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 610
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59258e898e0e1984ba1aae29d6f8345d
+      internalID: -7624084329945874369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 610
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fc8fbdb6451ca4bb944c39a46cdb3e
+      internalID: 419652762283999431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 610
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bd8c47389312f47bf3353a2dc29288
+      internalID: 464872600965383920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 610
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305293b4a9cdbec4ebdcb724b16fbd19
+      internalID: -7214591625194486977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 610
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d91f25e00c21aa4e9b1e49511ab216a
+      internalID: -7729536848943337611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 610
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1137ade15767a2d40bd03097bb437d30
+      internalID: -9220379489200732551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 610
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb4eb2d1cf545b45ba084f428aab53f
+      internalID: -1699798156017573544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 610
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe8ea930115fee4ca95b39032215af2
+      internalID: 8396319362017248305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 610
+        width: 32
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340196f76cd5d39409b9eb9be12f1707
+      internalID: -4343052788160598147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 610
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e5424cc558a474ea8ba0d5cec7658c
+      internalID: -1449613508728070267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 569
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5f34cf2ae810f4b85d9185ad27a936
+      internalID: -2974042352950513775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 569
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f5aa156fb2b4a42bb2042522ee283d
+      internalID: 6177335285047666396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 569
+        width: 18
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da70f2c8a8940546a50450b19d80dc2
+      internalID: 8525580951836248538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 569
+        width: 18
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dd82650d9a65541a47fa3679c1de94
+      internalID: -7712305710659746322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_15
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 569
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cafaa4af4707814c8444522dc465f80
+      internalID: 1078302591088581159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 569
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f8b486413cd2241bb03da0c3bab29f
+      internalID: -3802032046844490932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_17
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 569
+        width: 23
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edef79878bc9ebd469dc3dd9ad4688b9
+      internalID: 2541000067362538578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_18
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 569
+        width: 24
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dd10d475a835a4aa66a933d55e43ba
+      internalID: -4646310858812523170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 535
+        width: 32
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dbb6e4c10f91d48a958e6a5be39ad1
+      internalID: 2872933928470303296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 569
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6fec31a73703f4992fedc9745936ce
+      internalID: 1441162218433453675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_21
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 569
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a048d7030f336b443a3e532040adac90
+      internalID: -6878064730893129429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 535
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb1a2410a5d0f84a83b2dd1f1f37d4f
+      internalID: -937199237349262411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_23
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 535
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d6dfebbe7e9d849832101e48ecc88a
+      internalID: -2330328939857850167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 535
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66326478b60aee0419180a9981a6655e
+      internalID: 2669275822180000030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 535
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9446be86726e847a5aeac334f64471
+      internalID: -2780625066448679423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 535
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7165904083084946a690bd913ab05be
+      internalID: 7073024016660786707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 535
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2bea67ea215744798966ef9272b0da
+      internalID: 507312147936228839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 501
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528172c99b96a1a479521e3d9d8323cf
+      internalID: 6205106171045293695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 501
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ba4f15ac655a64fb83c4d92e92344d
+      internalID: -7598271153575360541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 501
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2c4cc5315c59548bad9ecf65f9e9ce
+      internalID: -1430989477899472855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 501
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c46fb63ad5f9641b1b18eea5268ab9
+      internalID: 8017748509540142486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_32
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 501
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51060d359d8e174da169aa5ed5a492e
+      internalID: 4664936639977628361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_33
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 501
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2544b4120b0ed24489fabefb5eb9209
+      internalID: 131215892430686866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 467
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be54529427e40224886e629259fa57a6
+      internalID: -7877292906011370623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_35
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 467
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6f8ca0f8742da4990b1c4043df99b3
+      internalID: -5155285610373541887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_36
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 467
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f264be0b14464a4b8e48693ce1f41c1
+      internalID: 3984848788618955576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_37
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 467
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a882305eb860b0045b8a2041725e6203
+      internalID: -932727549588407959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_38
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 467
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c0a974c677fdb46bb25de62e02dbdd
+      internalID: 497967275092274880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_39
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 467
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c84bd3be578f9d4faf38532abec1f71
+      internalID: 5792918044808452825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_40
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 467
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9d4a515343d8744afef6c199492c57
+      internalID: 5074874916742070025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 467
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15edc55c1754ca349aec320bcc983ccb
+      internalID: -8212524831426962675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_42
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 467
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc9f1532093f6b42ab81edb1e59e7fd
+      internalID: -350676568592758644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 433
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8361ab0334accc747bf62391b8242afe
+      internalID: -4807349782985852799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 433
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6c2e26e36b2ce4b870bb0881d34604
+      internalID: 8477266025570797415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_45
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 433
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125d8ce88ff49764bb1527444a512937
+      internalID: 470733916826592118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 433
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f16b55a336cd6443abdec91b160faa4
+      internalID: 958169142175714036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_47
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 433
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4b74fc836f66a4a8aeb66c11c32a99
+      internalID: 8733691572801373143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_48
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 433
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878d62fb18545784b9882b1cf6f02af2
+      internalID: -1381389824938744569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_49
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 433
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56acfc46097dd94896d3a6de2a5604d
+      internalID: -4629904543663436653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 433
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29086e29724f7704fb16038689363001
+      internalID: 7160771865132854537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_51
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 433
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f973c3bb763cee041b3fc998a811212e
+      internalID: -7291200044000034057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 399
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0a3579e6fa2164aa697aa9c911690e
+      internalID: 2619340757392984216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_53
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 399
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26fe61775e8ccf47bddcbad6eabdfab
+      internalID: -3555617978517674832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_54
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 399
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac53fa456a530e4d937e82f9fdd5967
+      internalID: 4777568833576396398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 399
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7fe51c13dba2648980414cac27d8e5
+      internalID: -4234184727782359346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_56
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 399
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509f01bf7fe47474fbc8f56b8d83d379
+      internalID: -4367902633853842083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_57
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 399
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2236abd327050144eb76aee452c9f181
+      internalID: -2216157170476744131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_58
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 399
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3653e9400581f458e537cd1b635832
+      internalID: -8413515054240510056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 399
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb39a9ccfdadc0b4c9cb99ab3ee9fb67
+      internalID: -5101581717614648751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_60
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 399
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3be02a16fc8e74c8fc81bb6fd1eb31
+      internalID: -7101549437940678213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_61
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 365
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe65469ea036a342b0d4addf3c17bcb
+      internalID: -3026164200355001517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_62
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 365
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad59834d7caef0c4dae2e396f8d3c501
+      internalID: -4031964315311316991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_63
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 365
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459bb1a9649625e458acd0931fd30ba1
+      internalID: -4391587331095040478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_64
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 365
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f4dd236f114b84aa993df04b264a80
+      internalID: 3917991936745686265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_65
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 365
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d488472f41f6a44587284e29195a891
+      internalID: -2897372839789191082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_66
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 365
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146602cdd98e2c641ac4f85a8838d52d
+      internalID: 4543763573043188403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_67
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 365
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f7eb82c7df97d4b961af7806482509
+      internalID: -8127897536390092802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 365
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb8b163e895f8147b2a0075e481c16d
+      internalID: -4423755461069134485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_69
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 365
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00fb6fcf740c0f4db1fd5241f95da2e
+      internalID: -7982594055791183158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 331
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9837fd63b54699542aa0b1a330b4a3a9
+      internalID: -5300541275530967003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_71
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 331
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f90f8bee79ce94983ed51748ee5922
+      internalID: 5353655367571454754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_72
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 331
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c8cfb6a15f79f40ab88a0edde77150
+      internalID: 7935196757430481353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_73
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 331
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e089dc1584799f249b51fd1bcae4799f
+      internalID: 2817312377117146184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_74
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 331
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a15383959b60c346854d79861798670
+      internalID: 3346169147836299670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_75
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 331
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f512d8a6ca3a25446a37bc78a536e12f
+      internalID: 5620430576438299483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_76
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 331
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4864ba07fc3adc641b0eb90cbc47b0e7
+      internalID: -4640283263111696064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_77
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 331
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff427b1006e7a764baa0a60653722861
+      internalID: -698087930973269434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_78
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 331
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35e872e9b4ae8248ab387df8f32ddba
+      internalID: 2623756423514646755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_79
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9800e92bc2a7c5f4eaec1a6e86f8da11
+      internalID: 5100884902734328563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_80
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbd6c45e5967f345b4e3c26bea6e021
+      internalID: 3948657681160604093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_81
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090a61167693add4ba234175e2f1a7ba
+      internalID: 5352861490702328042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_82
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939bbf789ff36b541a2d32a3aa85308c
+      internalID: 9218779071791018682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_83
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5501116ea53c114ea006577399bdf82
+      internalID: -498880245149204484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_84
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8de5988d3d0a8f42868f4e16885a9e9
+      internalID: -8640660053382258264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_85
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d446a4454ec3b479fc21f5fceb0f95
+      internalID: 1844207267192880707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b68316903f215d48aebdcccdee8b606
+      internalID: -3633980855897183797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_87
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92385783634006b4f9951a741cb3e853
+      internalID: 4677776755948199965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_88
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66061c6ad94de504d9f9841d6bd96c9d
+      internalID: -285782037674026987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_89
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f9a706a4b3b394eac08c1444e6d5ea
+      internalID: 6444441383912433693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_90
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 295
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682fb90c9fa3bf94c8378116af233eb5
+      internalID: 4081257860535688150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_91
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 295
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810fd26d39f683a43ba246a2f39b6151
+      internalID: 1645722003275432010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_92
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 295
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224a264b944eddc488d2bf13a06351ff
+      internalID: 3039915053909684739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_93
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 289
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db4cb2715438da41a0bcaa3b91f08fc
+      internalID: 7024915124718389786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_94
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 289
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5137ca1660eb1684ba3860f4169d2c4b
+      internalID: 3547307847380877878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_95
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 289
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24366917c9f779d4d8125cb1b676a25b
+      internalID: 1341346065968110516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_96
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4147ea60d353c46906359211ea4465
+      internalID: -2672894643625554058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_97
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28237f91608f1e04da38f0eb3e3506c2
+      internalID: -626873389499293506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_98
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa59f06e87276b54088d2abb680adc1d
+      internalID: 4524183438569782206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_99
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245d988e3cbc92945ab7ee884821f38b
+      internalID: -7842368824682226955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_100
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834d54aee9603fe45b4a59f47635697d
+      internalID: 1498798125334195175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_101
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0890b71f8d8d1dc438952ed9465447ff
+      internalID: -8323819263857512563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_102
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66de8422e978724bb1b0a2bf912361a
+      internalID: 3312376098840271335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3636333f1829fa34e983953828b0cfed
+      internalID: -1327435728037462703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_104
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a13a92cb115a994b910bea556e7fc58
+      internalID: -2920812542847538167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_105
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed837a8f1b37284fab81e871b7e662b
+      internalID: 4457810591707631332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_106
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 271
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b0a0da1bb601f45a1991cc355a33b1
+      internalID: -2281481087267586473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_107
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 253
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664a9314b68cbe74dba58f44de30bca5
+      internalID: -3081277370725777535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_108
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 253
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2580cb5b3ee87134ba577fb1503e70c6
+      internalID: 4664161259832977746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_109
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 253
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0970253ccb7e04844b1431c50916d76f
+      internalID: 5948597638341934493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_110
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 253
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1ecb75707296b498fbce371b0c082b
+      internalID: -8092053662138212022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_111
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 253
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aa3715357479343bd972d10c7e31b8
+      internalID: 786852121183701521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_112
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 253
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44db93e2f5c77f5439321ec617ad4164
+      internalID: 5804908603744553194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_113
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 253
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6cc7075d83c8b4081aff0e978bc67f
+      internalID: 4050455234219434777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 253
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5692da1ab3ea63b49959d019481bdea5
+      internalID: -7877221806109070251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_115
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 253
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ef74c4544b9cd41992415303aad8c3
+      internalID: -8429987672938323235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_116
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 235
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5773f0a4da63f14b8c453fd5f27f051
+      internalID: 2477811611222121725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_117
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 235
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd0f8c5936a69b49b774c386a3e678f
+      internalID: 6235082876703640301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_118
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 235
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2b41d79737a484c92cd7b51dbe33b1
+      internalID: 2985226589772411673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_119
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 229
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef3052d86be3d1439782a28ecf93053
+      internalID: -3940167824637028668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_120
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 229
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c525632b7f8c4141a0b97dfda0f8fa8
+      internalID: 1619438232340595020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_121
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 229
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea811962d26eaae49aae17bffefbd582
+      internalID: 8815663636375763132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_122
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 202
+        width: 11
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b576642e379ffe44e9a4799c1ed68fc4
+      internalID: -4111708565355704662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_123
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 202
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f073e5b838c4f044b3e36fc9f62fb55
+      internalID: 7225811949737234294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_124
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 202
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df36d4f8722d46546a9e0b927d5c85b7
+      internalID: 1599289289913793339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_125
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 202
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29c07fe0259b434dbc54055ff4172e9
+      internalID: -1111732519946910834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_126
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 202
+        width: 17
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdf8db5bf9a0d34db6cd19d572468b3
+      internalID: -8437517078338941577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_127
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 202
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490f363e40adc9d49a6dfc1b5f48a56b
+      internalID: -6798881934957823397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_128
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 202
+        width: 11
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff9b2b10d88faa488ec5531995d68a6
+      internalID: 8247419238090369598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_129
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 202
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1395908736d1e10449c6ab08ea2b2c9b
+      internalID: -5992576452452132455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_130
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 202
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f31c732f97b84b48954a7dd60e62f91
+      internalID: -9145081514757301940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_131
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 202
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138b9a3517f8d484086a4a32eb324754
+      internalID: 6403130323366908088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_132
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 202
+        width: 17
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01327c49658be949ae4236ab78c9b7c
+      internalID: -3393352015632801620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_133
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 202
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29e0b2287699054681f8637ac735052
+      internalID: 7330554585133041737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_134
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 186
+        width: 16
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d601a14b216be4189881e7ecb18716
+      internalID: 2394093311143569448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_135
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 186
+        width: 22
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8853a25d5863af4fb2e833702e4f3ce
+      internalID: 6462343512714046771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_136
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 186
+        width: 24
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcabd876fd13629428e3009d0cbc84f1
+      internalID: -8201853098282740295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_137
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 190
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae29f276ecf82894f9a9e60cfb74112b
+      internalID: 6852846306077230970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_138
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 188
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7cfd2e0ff99ba4bb3c7e726883346b
+      internalID: 4556055106008210742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_139
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 186
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7885c1b7dfbdd5b40b1f36f3ed1e4ec1
+      internalID: 1849579087922660501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_140
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 186
+        width: 10
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d451232efbe0914083e9f19afb9d73c
+      internalID: 6298643703312280951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_141
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 138
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d927a7505bc929a40b056e1ddb85eed1
+      internalID: -3190168636645725330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_142
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 138
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185082ba4e10e80428cf27881b2458a2
+      internalID: -8888552714086174302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_143
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 138
+        width: 11
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2febac15cdb7cb34d9881ca5cb6ca40f
+      internalID: -4984688722928997283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_144
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 138
+        width: 13
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfd37f7d013a5045b05ee58a45136e9
+      internalID: 1714179753976749031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_145
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 153
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791eb402569088f45a65cd1447f13a54
+      internalID: 268676102778729108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_146
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 138
+        width: 9
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faced843aff2726438ce6f6d22ae0155
+      internalID: 4859057943572152175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_147
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 138
+        width: 14
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af697e75db9c0a43b1be51b729ae05e
+      internalID: 5618960396560120881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_148
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 138
+        width: 25
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891c7bb6f0662a741a7bcfbabe651b98
+      internalID: 1626712046214514705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_149
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 138
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0006e7dc1f5e32a40976330cc81be1cb
+      internalID: -3173550814230386874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_150
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 138
+        width: 10
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5b7df2b2ea1334c9f2d71aa34a53ca
+      internalID: 6764520620913544632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_151
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 138
+        width: 15
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72beefa3ba5ed1c47b2f9f5008029fee
+      internalID: 9190951765386961669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_152
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 153
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efb55d30c3061144a0cf954061778d1
+      internalID: 3754334183957929246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_153
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 142
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91bd7ed240eaf9469a50d08f403ece1
+      internalID: 6350712716906767399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_154
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 140
+        width: 24
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906b16aced38f1e448de2c7599ef5c77
+      internalID: 8523136178113722988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_155
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 141
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6e040d5d7ddbc40afd6cff940e95db
+      internalID: 7940269806550020108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_156
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 143
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039b372c40856b342af5887cff04e1b7
+      internalID: -6243492725482676109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_157
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 143
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ab718aad726354cb12a892236d29be
+      internalID: -2876787329881759407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_158
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 138
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbe2266cad88b34b96086c30b52ba92
+      internalID: -5665487357419849222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_159
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 138
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42958a43071ff241acff1fb31cdfb77
+      internalID: 5099058228877088798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_160
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 138
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c5d487497b6d641ab829aa520d0dc3
+      internalID: 2163424661748002303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_161
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 138
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7d4367077c9614aae63d860f46e7a1
+      internalID: -2589379044500801574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_162
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 104
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ed7fd4639bc3348941fd3b144f62e9
+      internalID: 7094103244684916041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_163
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 104
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daf650d51cefc041b1da75b00f13917
+      internalID: 9135977033699342632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_164
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 104
+        width: 24
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d194451a4707367439fb4543acdce284
+      internalID: 1360564677580760900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 104
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283f5a57691b814459e99e8ffb42c53f
+      internalID: 3570078052056312846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_166
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 104
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5d9d533340b39449fd182ee311d773
+      internalID: -1554080756674512150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_167
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 104
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e72f8d448856e64880ef1a38b13adaf
+      internalID: 4732759396486649345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_168
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 104
+        width: 6
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da84883f82c87274ba09413b96e994c3
+      internalID: 4781441131865713712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_169
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 104
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4122ec159cf481f42ac5545622c63d99
+      internalID: 6144552421556199039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_170
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 104
+        width: 16
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aad7d416c230fa478a3d8afba444506
+      internalID: 9102598455525771976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_171
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 104
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1505f1690cd88724394e8a9998555602
+      internalID: -8387291994409999426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_172
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 104
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919438e4b152f564288e989e4242b3ae
+      internalID: 2273224766073567199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_173
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 70
+        width: 30
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c45e1d3fb32b7498e91dc67a75ffe6
+      internalID: -2632507829739747138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_174
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 70
+        width: 30
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069ac172fbfc0834baa005dffff3c140
+      internalID: 5755996832136363631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_175
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 70
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1d6c1885f0db046ad82567addf21dd
+      internalID: -1798534622322771743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_176
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 70
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c877d7e5ba54a24093efc278747031b
+      internalID: 793362730096362359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_177
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 70
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117227f8584b7784ba7b74292a5a5627
+      internalID: -4529587698687382788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 70
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451faf07ca09a174a822ff3c040b49ee
+      internalID: -8866232473005994703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_179
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 70
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347ca2ed6a993654cb194771b9bba80b
+      internalID: -8921205765604469066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_180
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 70
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192c2e6b47574fa448688ed6892990cc
+      internalID: -2412850572678681735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_181
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 70
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14acee7c1815d824ca406b60750219b9
+      internalID: -1795446860098505469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_182
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 36
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e2ef23708088d4aa8d8f816b3194ca
+      internalID: 2781065215201048143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_183
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 36
+        width: 28
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc120c7d2b31f54a8b28d731bccfade
+      internalID: -8640145253282655126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_184
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 32
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6055c9086017e934b96b2a09b71bbed9
+      internalID: -8299899785158530702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_185
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 36
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d75ddd0b54ff5a44a2bd76455871ed7
+      internalID: 7698608643317013256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_186
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 39
+        width: 5
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce8f1d130c844845a5ca4913d98370b
+      internalID: 1186295336826209439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_187
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 36
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1625d29be604a2447b6035f421816ec6
+      internalID: -7799242421812689134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion1_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ec987f4b9b4274f90479191b91077b
+      internalID: 5070197690011788643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion1_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390ba828b9f72c44fa2d93e633258ad3
+      internalID: 3563958213308516570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion1_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03d7ce2f8ba7c94fba99219b32f38b1
+      internalID: -6535378651979640892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_191
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 20
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afae8d23bb8d614c8bbfee7ec6514ea
+      internalID: -5607088959600869523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion3_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 9
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9ae5c38ef808c41aec24a8e7616f47
+      internalID: -2695639910534920893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion3_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 4
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96179bf16680c944ae7258724def72f
+      internalID: 1740039120388472962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion3_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c818369044c734da8131ab4cbea568
+      internalID: -847446916027367136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion2_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 6
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31163d8dde5b494c90f744f44035d29
+      internalID: 2377414925497306460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion2_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 4
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764bcac29c10d3e4bb88185fa2688edd
+      internalID: -4366686689551586297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion2_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bc799fcfe11654cb1ed78a4b7f8aca
+      internalID: 6358716230168295424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_198
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 20
+        width: 18
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c65823b115f73e4a8badcf52b0d68d2
+      internalID: -8903017868037589126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_199
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 9
+        width: 19
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e92fc3d20ca3d408fa77d0f9be6fc5
+      internalID: 6125623715508733705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_200
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 4
+        width: 23
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e2668aec5fe36409d2776c25b403e0
+      internalID: 9140413419854048444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_201
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3b2fad351782144817b80cf0fcd5dc
+      internalID: 1307647463369658949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_202
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2
+        width: 9
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e3b9118d340224eb451df57264ee28
+      internalID: 2394480575949316065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_203
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2
+        width: 15
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569cd826e553b464287237a6c38aca0b
+      internalID: -1992136863140719822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_204
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2
+        width: 9
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95d5b7b8af420d4b8faae77bfa3cded
+      internalID: -2648747273943139922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_enemies_205
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2
+        width: 15
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ffdb34072ecce4889cb0d6b8dcd18e
+      internalID: 7925456986461525429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

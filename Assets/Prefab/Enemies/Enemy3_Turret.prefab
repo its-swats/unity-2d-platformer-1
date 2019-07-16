@@ -132,6 +132,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   isPlayer: 0
+  deathEffect: {fileID: 5393877022362284633, guid: b1d3fd9c39ac9fa4ba11bb48abf6cbd5,
+    type: 3}
+  deathDelay: 0.1
+  deathTrajectory: {x: 0, y: 0}
 --- !u!61 &6741156526499251432
 BoxCollider2D:
   m_ObjectHideFlags: 0

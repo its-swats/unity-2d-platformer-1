@@ -192,3 +192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   isPlayer: 0
+  deathEffect: {fileID: 1409927051460003724, guid: 743459bde9c78534d8625dd8192402a7,
+    type: 3}
+  deathDelay: 0
+  deathTrajectory: {x: 0, y: 0}
