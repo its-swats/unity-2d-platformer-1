@@ -37,19 +37,19 @@ TextureImporter:
     second: NES_contra_enemies_10
   - first:
       213: -2974042352950513775
-    second: NES_contra_enemies_11
+    second: Enemy1_Idle
   - first:
       213: 6177335285047666396
-    second: NES_contra_enemies_12
+    second: Enemy1_Idle_Shoot
   - first:
       213: 8525580951836248538
-    second: NES_contra_enemies_13
+    second: Enemy1_AimUp
   - first:
       213: -7712305710659746322
     second: NES_contra_enemies_14
   - first:
       213: 1078302591088581159
-    second: NES_contra_enemies_15
+    second: Enemy1_AimDown
   - first:
       213: -3802032046844490932
     second: NES_contra_enemies_16
@@ -124,7 +124,7 @@ TextureImporter:
     second: NES_contra_enemies_39
   - first:
       213: 5074874916742070025
-    second: NES_contra_enemies_40
+    second: Enemy1_AimUp_Shoot
   - first:
       213: -8212524831426962675
     second: NES_contra_enemies_41
@@ -947,7 +947,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES_contra_enemies_11
+      name: Enemy1_Idle
       rect:
         serializedVersion: 2
         x: 2
@@ -968,7 +968,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES_contra_enemies_12
+      name: Enemy1_Idle_Shoot
       rect:
         serializedVersion: 2
         x: 28
@@ -989,7 +989,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES_contra_enemies_13
+      name: Enemy1_AimUp
       rect:
         serializedVersion: 2
         x: 54
@@ -1031,7 +1031,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES_contra_enemies_15
+      name: Enemy1_AimDown
       rect:
         serializedVersion: 2
         x: 94
@@ -1556,7 +1556,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES_contra_enemies_40
+      name: Enemy1_AimUp_Shoot
       rect:
         serializedVersion: 2
         x: 206

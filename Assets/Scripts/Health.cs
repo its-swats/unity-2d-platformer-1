@@ -8,7 +8,6 @@ public class Health : MonoBehaviour
     [SerializeField] private bool isPlayer;
     [SerializeField] private ParticleSystem deathEffect;
     [SerializeField] private float deathDelay = 0f;
-    [SerializeField] private Vector2 deathTrajectory;
 
     private bool dying = false;
  
@@ -24,9 +23,6 @@ public class Health : MonoBehaviour
         if(isPlayer){
             StartCoroutine(GetComponent<PlayerController>().Die());
         } else {
-            if(deathTrajectory != Vector2.zero){
-                GetComponent<Rigidbody2D>().velocity = deathTrajectory;
-            }
             if(deathEffect){
                 Instantiate(deathEffect, GetComponent<Renderer>().bounds.center, transform.rotation).Play();
             }
