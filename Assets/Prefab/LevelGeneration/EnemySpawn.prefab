@@ -47,6 +47,7 @@ MonoBehaviour:
   enemyArray:
   - {fileID: 4736539949601019780, guid: 62d5292a18013414b8cb213d441b78c6, type: 3}
   - {fileID: 32769504117847583, guid: debeab7c39b8e85438bc70b94484ac49, type: 3}
+  - {fileID: 378450835671965367, guid: 48cc1e3483116b54199725c3da4c5f1f, type: 3}
   - {fileID: 4736539949601019780, guid: 62d5292a18013414b8cb213d441b78c6, type: 3}
 --- !u!61 &7680030649070250549
 BoxCollider2D:

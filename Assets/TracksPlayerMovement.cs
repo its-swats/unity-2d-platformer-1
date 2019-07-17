@@ -20,9 +20,9 @@ public class TracksPlayerMovement : MonoBehaviour
             }
 
             if(canAim){
-                if(Player.Instance.transform.position.y + 1f < transform.position.y){
+                if(Player.Instance.transform.position.y + .5f < transform.position.y){
                     anim.Play("AimDown");
-                } else if(Player.Instance.transform.position.y - 1f > transform.position.y){
+                } else if(Player.Instance.transform.position.y - .5f > transform.position.y){
                     anim.Play("AimUp");
                 } else {
                     anim.Play("Idle");

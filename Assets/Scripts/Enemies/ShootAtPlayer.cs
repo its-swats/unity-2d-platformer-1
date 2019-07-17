@@ -7,18 +7,21 @@ public class ShootAtPlayer : MonoBehaviour
     [SerializeField] private GameObject[] firingPoints;
     [SerializeField] private Weapon weapon; 
     [SerializeField] private Transform bulletRef;
+    [SerializeField] private FiringLogic firingLogic;
     [SerializeField] private float shotInterval;
     [SerializeField] private float shotTimer = 0;
     [SerializeField] private Animator anim; 
 
     void Update(){
-        RaycastHit2D hit = Physics2D.Raycast(firingPoints[0].transform.position, Vector2.left, 10f);
-        if(hit.collider != null && hit.collider.CompareTag("Player")){
+        GameObject firingPoint = firingLogic.ActiveFiringPoint(firingPoints);
+
+        if(firingPoint != null){
             if(shotTimer >= shotInterval){
-                weapon.Fire(bulletRef, firingPoints[0].transform.position, firingPoints[0].transform.rotation);
+                weapon.Fire(bulletRef, firingPoint.transform.position, firingPoint.transform.rotation);
                 shotTimer = 0;
             }
         }
+
         shotTimer += Time.deltaTime;
     }
 
